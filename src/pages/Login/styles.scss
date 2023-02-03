@@ -1,0 +1,46 @@
+.container-login {
+  height: 512px;
+  width: 857px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .container-login__form {
+    width: 50%;
+    height: 100%;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 2rem;
+    .container-login__form-img {
+      max-width: 259px;
+      margin-left: 3rem;
+    }
+    h2 {
+      color: rgba(0, 0, 0, 0.44);
+      font-family: "Advent Pro", sans-serif;
+    }
+    span {
+      color: #ff6c22;
+    }
+    .container-login__form--button {
+      display: flex;
+    }
+  }
+  .container-login__painel {
+    width: 359px;
+    height: 100%;
+    background-color: #000;
+    .container__login--painel__img {
+      position: absolute;
+      img {
+        width: 100%;
+        max-width: 395px;
+        position: relative;
+        top: 7.5rem;
+        right: 24%;
+      }
+    }
+  }
+}

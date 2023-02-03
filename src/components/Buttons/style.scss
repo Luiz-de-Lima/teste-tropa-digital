@@ -1,0 +1,16 @@
+.button {
+  border: none;
+  border-radius: 5px;
+  padding: 0.5rem 1.8rem;
+  background-color: #2eafb2;
+  color: #fff;
+  font-weight: 700;
+  cursor: pointer;
+  &:hover {
+    filter: brightness(1.2);
+  }
+  a {
+    text-decoration: none;
+    color: #fff;
+  }
+}
